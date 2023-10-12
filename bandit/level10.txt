@@ -1,0 +1,5 @@
+Base64
+
+===========
+base64 --decode data.txt
+6zPeziLdR2RKNdNYFNb6nVCKzphlXHBM
