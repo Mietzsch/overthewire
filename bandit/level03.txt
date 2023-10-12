@@ -1,0 +1,5 @@
+Die Datei inhere/.hidden taucht in ls nicht auf. ls -la geht.
+
+===========
+cat inhere/.hidden
+2EW7BBsr6aMMoJ2HjW067dm8EgX26xNe
