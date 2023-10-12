@@ -1,0 +1,5 @@
+Die Zeilen müssen erst sortiert werden, dann kann uniq random
+
+============
+sort data.txt | uniq -u
+EN632PlfYiZbn3PhVK3XOGSlNInNE00t
