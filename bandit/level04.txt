@@ -1,0 +1,5 @@
+Die Dateien enthalten nicht druckbare Zeichen. Mit -v kann man sie escapen.
+
+============
+cat ./-file07
+lrIWWI6bB37kxfiCQZqUdOIYfr6eEeqR
