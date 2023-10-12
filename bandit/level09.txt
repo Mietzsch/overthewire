@@ -1,0 +1,5 @@
+Gibt bestimmt was besseres. Grep zeigt anscheinend binär per Default nicht an.
+
+==========
+grep -e '===' data.txt  --text
+G7w8LIi6J3kTb8A7j9LgrywtEUlyyp6s
