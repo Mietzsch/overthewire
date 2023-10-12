@@ -1,0 +1,8 @@
+Der Dateiname ist "-". Cat und nano sind erstmal verwirrt und öffnen die Datei nicht.
+
+"-" ist redirect. cat - holt sich also den input von stdin.
+https://tldp.org/LDP/abs/html/special-chars.html
+
+==========
+cat ./-
+rRGizSaX8Mk1RTb1CNQoXTcYZWU6lgzi
