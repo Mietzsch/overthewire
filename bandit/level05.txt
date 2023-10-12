@@ -1,0 +1,5 @@
+Sehr viele Dateien im Verzeichnis.
+
+==============
+find . -type f -not -executable -size 1033c | xargs cat
+P4L4vucdmLnm8I7Vl7jG1ApGSfjYKqJU
