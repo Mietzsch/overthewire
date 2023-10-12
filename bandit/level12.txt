@@ -1,0 +1,25 @@
+1. Schritt: tmp dir
+mktemp -d
+
+2. Schritt: Hexdump wieder zu binär machen
+xxd -r data.txt data.bin
+
+3.Schritt: entpacken
+zcat data.bin
+bzcat
+zcat
+zcat
+tar -x -f
+tar -x -f
+bzcat
+zcat
+
+
+xxd -r data.txt | zcat | bzcat | zcat > tar1.bin
+tar -x -f tar1.bin
+tar -x -f data5.bin
+bzcat data6.bin > data7.bin
+tar -x -f data7.bin
+zcat data8.bin
+
+wbWdlBxEir4CaE8LaPhauuOo6pwRmrDw
