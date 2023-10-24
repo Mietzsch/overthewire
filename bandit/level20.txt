@@ -1,0 +1,11 @@
+screen
+
+Ctrl+? ist hilfe
+
+Ctrl+a | für zwei regionen
+
+Ctrl+a tab zum wechseln
+Ctrl+a c um eine neue shell zu bekommen
+
+nc -l 55555 ./suconnect 55555
+NvEJF7oVjkddltPSrdKEFOllh9V1IBcq
