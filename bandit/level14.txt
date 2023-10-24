@@ -1,0 +1,4 @@
+cat /etc/bandit_pass/bandit14 | nc localhost 30000
+
+Correct!
+jN2kgmIXJ6fShzhT2avhotn4Zcka6tnt
