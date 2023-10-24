@@ -8,4 +8,14 @@ Ctrl+a tab zum wechseln
 Ctrl+a c um eine neue shell zu bekommen
 
 nc -l 55555 ./suconnect 55555
-NvEJF7oVjkddltPSrdKEFOllh9V1IBcq
+send VxCazJaVykI6W36BkBU0mJTCM8rR95XT
+recv NvEJF7oVjkddltPSrdKEFOllh9V1IBcq
+
+
+oder 
+
+nc -l 55555 &
+./suconnect 55555 &
+fg %1
+send VxCazJaVykI6W36BkBU0mJTCM8rR95XT
+recv NvEJF7oVjkddltPSrdKEFOllh9V1IBcq
