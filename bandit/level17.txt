@@ -1,0 +1,12 @@
+diff -y --suppress-common-lines passwords.new passwords.old
+
+hga5tuuCLF6fFzUpnagiMN8ssu9LFrdg
+
+diff passwords.new passwords.old
+
+42c42
+< hga5tuuCLF6fFzUpnagiMN8ssu9LFrdg
+---
+> p6ggwdNHncnmCNxuAt0KtKVq185ZU7AW
+
+Also links ist neu
