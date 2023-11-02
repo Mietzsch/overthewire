@@ -1,0 +1,12 @@
+seq -f "VAfGXJ1PBSsPSnvsjI8p759leLZ9GGar %g" 0000 9999 | nc localhost 30002 > out.txt
+
+grep -e 'try again' -v out.txt
+
+Das scheint aber irgendwie zu timeouten...
+
+In einzelnen batches gehts.
+
+Correct!
+The password of user bandit25 is p7TaowMYrmu23Ol8hiZh9UvD0O9hpx8d
+
+Größere batches mit dem oberen comman gehen auf (etwa von 2000 an), nur alles geht nicht so richtig
