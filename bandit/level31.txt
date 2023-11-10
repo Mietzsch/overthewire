@@ -1,0 +1,24 @@
+mktemp -d
+/tmp/tmp.HG4J8EI3a6
+
+cd /tmp/tmp.HG4J8EI3a6
+
+git clone ssh://bandit31-git@localhost:2220/home/bandit31-git/repo
+
+cat README.md 
+This time your task is to push a file to the remote repository.
+
+Details:
+    File name: key.txt
+    Content: 'May I come in?'
+    Branch: master
+
+
+### Attempting to validate files... ####
+remote: 
+remote: .oOo.oOo.oOo.oOo.oOo.oOo.oOo.oOo.oOo.oOo.
+remote: 
+remote: Well done! Here is the password for the next level:
+remote: rmCBvG56y58BXzv98yZGdO7ATVL5dW8y 
+remote: 
+remote: .oOo.oOo.oOo.oOo.oOo.oOo.oOo.oOo.oOo.oOo.
