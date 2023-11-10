@@ -1,0 +1,9 @@
+mktemp -d
+/tmp/tmp.FS9RFmglO3
+
+cd /tmp/tmp.FS9RFmglO3
+
+git clone ssh://bandit27-git@localhost:2220/home/bandit27-git/repo
+
+cat repo/README
+The password to the next level is: AVanL161y9rsbcJIsFHuw35rjaOM19nR
