@@ -1,0 +1,25 @@
+mktemp -d
+/tmp/tmp.r9WmDBfmIb
+
+cd /tmp/tmp.r9WmDBfmIb
+
+git clone ssh://bandit30-git@localhost:2220/home/bandit30-git/repo
+
+cat README.md 
+just an epmty file... muahaha
+
+git tag -l
+secret
+
+
+grep -r 'secret' .
+./.git/FETCH_HEAD:831aac2e2341f009e40e46392a4f5dd318483019      not-for-merge   tag 'secret' of ssh://localhost:2220/home/bandit30-git/repo
+./.git/packed-refs:831aac2e2341f009e40e46392a4f5dd318483019 refs/tags/secret
+
+ cat packed-refs 
+# pack-refs with: peeled fully-peeled sorted 
+d39631d73f786269b895ae9a7b14760cbf40a99f refs/remotes/origin/master
+831aac2e2341f009e40e46392a4f5dd318483019 refs/tags/secret
+
+git show 831aac2e2341f009e40e46392a4f5dd318483019
+OoffzGDlzhAlerFJ2cAiz1D41JW1Mhmt
