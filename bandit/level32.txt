@@ -1,0 +1,6 @@
+da ist alles in UPPERCASE
+
+mit $0 kann man das originale script nochmal ausführen
+
+cat /etc/bandit_pass/bandit33
+odHo63fHiFqcWWJG9rLiLDtPm45KzUKy
