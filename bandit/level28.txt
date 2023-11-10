@@ -1,0 +1,17 @@
+mktemp -d
+/tmp/tmp.lPP9NtiIVb
+
+cd /tmp/tmp.lPP9NtiIVb
+
+git clone ssh://bandit28-git@localhost:2220/home/bandit28-git/repo
+
+git checkout HEAD^
+
+cat README.md 
+# Bandit Notes
+Some notes for level29 of bandit.
+
+## credentials
+
+- username: bandit29
+- password: tQKvmcwNYcFS6vmPHIUSI3ShmsrQZK8S
