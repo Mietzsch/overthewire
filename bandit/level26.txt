@@ -1,0 +1,9 @@
+ls
+bandit27-do
+
+./bandit27-do 
+Run a command as another user.
+  Example: ./bandit27-do id
+
+./bandit27-do cat /etc/bandit_pass/bandit27
+YnQpBuifNMas1hcUFk70ZmqkhUU2EuaS
