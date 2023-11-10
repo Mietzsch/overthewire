@@ -1,0 +1,47 @@
+mktemp -d
+/tmp/tmp.rWVG2MZMo8
+
+cd /tmp/tmp.rWVG2MZMo8
+
+git clone ssh://bandit29-git@localhost:2220/home/bandit29-git/repo
+
+cat README.md 
+# Bandit Notes
+Some notes for bandit30 of bandit.
+
+## credentials
+
+- username: bandit30
+- password: <no passwords in production!>
+
+
+git log
+commit 4364630b3b27c92aff7b36de7bb6ed2d30b60f88 (HEAD -> master, origin/master, origin/HEAD)
+Author: Ben Dover <noone@overthewire.org>
+Date:   Thu Oct 5 06:19:43 2023 +0000
+
+    fix username
+
+commit fca34ddb7d1ff1f78df36538252aea650b0b040d
+Author: Ben Dover <noone@overthewire.org>
+Date:   Thu Oct 5 06:19:43 2023 +0000
+
+    initial commit of README.md
+
+git branch -a
+* master
+  remotes/origin/HEAD -> origin/master
+  remotes/origin/dev
+  remotes/origin/master
+  remotes/origin/sploits-dev
+
+git checkout origin/dev
+
+cat README.md 
+# Bandit Notes
+Some notes for bandit30 of bandit.
+
+## credentials
+
+- username: bandit30
+- password: xbhV3HpNGlTIdnjUrdAlPzc2L6y9EOnS
