@@ -1,0 +1,19 @@
+ltrace ./check 
+__libc_start_main(0x80491e6, 1, 0xffffd6a4, 0 <unfinished ...>
+printf("password: ")                                                                = 10
+getchar(0xf7fbe4a0, 0xf7fd6f90, 0x786573, 0x646f67password: dfkl
+)                                 = 100
+getchar(0xf7fbe4a0, 0xf7fd6f64, 0x786573, 0x646f67)                                 = 102
+getchar(0xf7fbe4a0, 0xf7fd6664, 0x786573, 0x646f67)                                 = 107
+strcmp("dfk", "sex")                                                                = -1
+puts("Wrong password, Good Bye ..."Wrong password, Good Bye ...
+)                                                = 29
++++ exited (status 0) +++
+
+./check
+password: sex
+$ whoami
+leviathan2
+
+cat /etc/leviathan_pass/leviathan2
+mEh5PNl10e
