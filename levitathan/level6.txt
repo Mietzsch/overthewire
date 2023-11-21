@@ -1,0 +1,35 @@
+mktemp -d
+/tmp/tmp.Semfp5QxE3
+
+seq -f "%g" 0000 9999 | xargs -n1 ./leviathan6 | grep -v -e Wrong
+
+Hmpf
+
+seq -f "%g" 0000 9999 | xargs -n1 ./leviathan6 | wc -l
+9999
+
+seq -f "%g" 5000 9999 | xargs -n1 ./leviathan6 | wc -l
+4999
+
+seq -f "%g" 5000 7499 | xargs -n1 ./leviathan6 | wc -l
+2499
+
+seq -f "%g" 6250 7499 | xargs -n1 ./leviathan6 | wc -l
+1249
+
+seq -f "%g" 7100 7199 | xargs -n1 ./leviathan6 | wc -l
+99
+
+./leviathan6 7123
+
+$ whoami
+leviathan7
+
+$ cat /etc/leviathan_pass/leviathan7
+8GpZ5f8Hze
+
+oder
+for i in {0000..9999}; do echo -n "${i} - "; ./leviathan6 "${i}"; done
+
+oder mit gdb:
+https://mayadevbe.me/posts/overthewire/leviathan/level7/
