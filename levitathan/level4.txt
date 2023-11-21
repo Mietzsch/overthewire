@@ -1,0 +1,13 @@
+ ls -la
+total 24
+drwxr-xr-x  3 root root       4096 Oct  5 06:19 .
+drwxr-xr-x 83 root root       4096 Oct  5 06:20 ..
+-rw-r--r--  1 root root        220 Jan  6  2022 .bash_logout
+-rw-r--r--  1 root root       3771 Jan  6  2022 .bashrc
+-rw-r--r--  1 root root        807 Jan  6  2022 .profile
+dr-xr-x---  2 root leviathan4 4096 Oct  5 06:19 .trash
+
+./.trash/bin
+01000101 01001011 01001011 01101100 01010100 01000110 00110001 01011000 01110001 01110011 00001010
+
+EKKlTF1Xqs
