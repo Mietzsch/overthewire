@@ -1,0 +1,11 @@
+This page uses mostly the same code as the previous level, but session IDs are no longer sequential... 
+
+Die cookies sind (wenn man admin als user eingibt) ungefähr
+
+3237322d61646d696e
+
+Ich habe festgestellt dass das immer 3 + x + 3 + x + 3 + x + postfix ist und die durchprobiert
+
+das ist wohl einfach ascii mit nummer und 'admin'
+
+guVaZ3ET35LbgbFMoaN5tFcYT1jEP7UH
